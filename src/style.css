@@ -1,0 +1,50 @@
+:root {
+  --bg-color: #2e2ed2;
+  --bg-color-dark: #2424a8;
+  --bg-color-light: #6262dd;
+  --color: rgb(245, 245, 245);
+}
+
+body {
+  color: var(--color);
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
+.bg-color-dark {
+  background-color: var(--bg-color-dark);
+}
+.bg-color-light {
+  background-color: var(--bg-color-light);
+}
+.color-light {
+  color: var(--color);
+}
+.navbar-brand,
+.nav-link,
+.navbar-toggler {
+  color: var(--color);
+}
+.navbar-brand:hover,
+.navbar-brand:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color);  
+}
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: underline;
+}
+.navbar-toggler{
+  border: 1px solid var(--color);
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28245, 245, 245, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

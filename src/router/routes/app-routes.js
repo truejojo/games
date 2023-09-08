@@ -4,6 +4,7 @@ const appRoutes = [
   {
     path: "/",
     alias: "/home",
+    name: "Home",
     component: HomePage,
   },
   {

@@ -1,16 +1,16 @@
 <script>
-import ContainerXLLayout from "@/layouts/ContainerXLLayout.vue";
+import ContainerLayout from "@/layouts/ContainerLayout.vue";
 
 export default {
   name: "TheFooter",
   components: {
-    ContainerXLLayout,
+    ContainerLayout,
   },
 };
 </script>
 
 <template>
-  <footer>
-    <ContainerXLLayout> footer </ContainerXLLayout>
+  <footer class="bg-color-dark py-4 text-center">
+    <ContainerLayout> footer </ContainerLayout>
   </footer>
 </template>
